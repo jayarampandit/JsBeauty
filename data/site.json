@@ -66,81 +66,70 @@
   ],
   "serviceCards": [
     {
+      "name": "Lash Lift",
+      "slug": "lash-lift-tint",
+      "image": "/images/lash-lift.png",
+      "description": "Lash perm, tint and brow-enhancing treatments for polished, low-maintenance definition."
+    },
+    {
       "name": "Threading",
       "slug": "threading",
       "image": "/images/threading.png",
       "description": "Precise facial hair removal and custom brow shaping with gentle cotton thread."
     },
     {
-      "name": "Waxing",
-      "slug": "waxing",
-      "image": "/images/waxing.png",
-      "description": "Smooth, longer-lasting hair removal using professional products and careful technique."
-    },
-    {
       "name": "Lash Extensions",
       "slug": "lash-extensions",
       "image": "/images/lashes.png",
-      "description": "Custom length and volume designed to complement your eye shape and personal style."
+      "description": "Classic, volume, hybrid, individual and cluster lashes tailored to your style."
     },
     {
-      "name": "Lash Tint",
-      "slug": "lash-lift-tint",
-      "image": "/images/lash-tint.png",
-      "description": "Rich, natural-looking definition that makes lashes appear darker without mascara."
+      "name": "Waxing",
+      "slug": "waxing",
+      "image": "/images/waxing.png",
+      "description": "Face and body waxing using professional products and careful technique."
     },
     {
-      "name": "Lash Lift",
-      "slug": "lash-lift-tint",
-      "image": "/images/lashes.png",
-      "description": "A softly lifted curl that opens the eyes and enhances your natural lashes."
-    },
-    {
-      "name": "Eyebrow Tint",
-      "slug": "lash-lift-tint",
-      "image": "/images/eyebrow-tint.png",
-      "description": "Semi-permanent color for brows that look fuller, balanced and beautifully defined."
-    },
-    {
-      "name": "Facials",
-      "slug": "facials",
-      "image": "/images/facial.png",
-      "description": "Customized cleansing, exfoliation, masking and hydration for refreshed, glowing skin."
-    },
-    {
-      "name": "Henna Tattoos",
+      "name": "Henna Tattoo",
       "slug": "henna",
       "image": "/images/henna.png",
       "description": "Intricate natural henna artistry for celebrations, ceremonies and personal expression."
+    },
+    {
+      "name": "Bridal Hair & Makeup",
+      "slug": "bridal-hair-makeup",
+      "image": "/images/hero.png",
+      "description": "Elegant bridal hair and makeup tailored to your style and celebration."
     }
   ],
   "serviceGroups": [
     {
-      "name": "Threading",
-      "slug": "threading",
-      "description": "A precise, chemical-free technique for shaping brows and removing facial hair with a clean, polished finish.",
+      "name": "Lash Lift",
+      "slug": "lash-lift-tint",
+      "description": "Lift, tint and brow treatments that brighten the eyes and enhance your natural features.",
       "items": [
-        { "name": "Eyebrows", "price": 15 },
-        { "name": "Upper Lip", "price": 8 },
-        { "name": "Chin", "price": 9 },
-        { "name": "Lower Lip", "price": 3 },
-        { "name": "Neck", "price": 10 },
-        { "name": "Sideburns", "price": 10 },
-        { "name": "Extended Sideburns", "price": 15 },
-        { "name": "Cheeks", "price": 10 },
-        { "name": "Forehead", "price": 8 },
-        { "name": "Full Face", "price": 40 }
+        { "name": "Lash Perm", "price": 75 },
+        { "name": "Lash Tint", "price": 35 },
+        { "name": "Ombre Tint", "priceLabel": "Contact for pricing" },
+        { "name": "Eyebrow Lamination", "priceLabel": "Contact for pricing" },
+        { "name": "Eyebrow Tint", "price": 15 }
       ]
     },
     {
-      "name": "Lash Lift & Tint",
-      "slug": "lash-lift-tint",
-      "description": "Low-maintenance curl and color treatments that brighten the eyes and define natural lashes and brows.",
+      "name": "Threading",
+      "slug": "threading",
+      "description": "A precise, chemical-free technique for shaping brows and removing facial hair with a clean finish.",
       "items": [
-        { "name": "Lash Lift / Perm", "price": 75 },
-        { "name": "Reverse Lash Lift", "price": 50 },
-        { "name": "Eyebrow Tint", "price": 15 },
-        { "name": "Lash Tint", "price": 35 }
+        { "name": "Eyebrow Threading", "price": 15 },
+        { "name": "Upper Lip", "price": 8 },
+        { "name": "Lower Lip", "price": 3 },
+        { "name": "Cheeks", "price": 10 },
+        { "name": "Chin", "price": 9 },
+        { "name": "Forehead", "price": 8 },
+        { "name": "Sideburns", "price": 10 },
+        { "name": "Neck", "price": 10 },
+        { "name": "Full Face", "price": 40 },
+        { "name": "Men's Eyebrows", "priceLabel": "Contact for pricing" }
       ]
     },
     {
@@ -148,14 +137,12 @@
       "slug": "lash-extensions",
       "description": "Classic, hybrid and volume sets tailored to your preferred fullness, with refill options to keep them fresh.",
       "items": [
-        { "name": "Classic Lash Extensions", "price": 100 },
-        { "name": "Hybrid Lash Extensions", "price": 120 },
-        { "name": "Volume Lash Extensions", "price": 125 },
-        { "name": "One-week Refill", "price": 50 },
-        { "name": "Two-week Refill", "price": 65 },
-        { "name": "Three-week Refill", "price": 75 },
-        { "name": "Lash Removal", "price": 30 },
-        { "name": "Individual Lashes", "price": 50 }
+        { "name": "Classic Lash Extension", "price": 100 },
+        { "name": "Volume Set", "price": 125 },
+        { "name": "Hybrid Set", "price": 120 },
+        { "name": "Individual Eyelashes", "price": 50 },
+        { "name": "Cluster Lashes", "priceLabel": "Contact for pricing" },
+        { "name": "Eyelash Removal", "price": 30 }
       ]
     },
     {
@@ -163,51 +150,46 @@
       "slug": "waxing",
       "description": "Professional face and body waxing with careful preparation and gentle formulas for smooth, long-lasting results.",
       "items": [
-        { "name": "Eyebrows", "price": 16 },
-        { "name": "Bikini Line", "price": 30 },
+        { "name": "Eyebrow Waxing", "price": 16 },
         { "name": "Upper Lip", "price": 9 },
-        { "name": "Brazilian Line-up", "price": 40 },
-        { "name": "Chin & Up", "price": 12 },
-        { "name": "Brazilian", "price": 50 },
-        { "name": "Chin", "price": 9 },
-        { "name": "Extended Brazilian", "price": 60 },
-        { "name": "Neck", "price": 12 },
-        { "name": "Full Back & Up", "price": 45 },
-        { "name": "Nose", "price": 20 },
-        { "name": "Full Chest / Stomach", "price": 45 },
-        { "name": "Extended Sideburns", "price": 20 },
-        { "name": "Buttocks / Lower Back", "price": 20 },
-        { "name": "Forehead", "price": 10 },
-        { "name": "Stomach", "price": 20 },
-        { "name": "Full Face", "price": 45 },
-        { "name": "Full Legs", "price": 50 },
-        { "name": "Underarms", "price": 15 },
-        { "name": "Extended Full Legs", "price": 60 },
+        { "name": "Lower Lip", "priceLabel": "Contact for pricing" },
         { "name": "Cheeks", "price": 10 },
-        { "name": "Full Arms", "price": 35 },
+        { "name": "Chin", "price": 9 },
+        { "name": "Forehead", "price": 10 },
         { "name": "Sideburns", "price": 15 },
+        { "name": "Neck", "price": 12 },
+        { "name": "Nose", "price": 20 },
+        { "name": "Full Face", "price": 45 },
+        { "name": "Men's Eyebrows", "priceLabel": "Contact for pricing" },
+        { "name": "Full Legs", "price": 50 },
+        { "name": "Half Legs", "price": 35 },
+        { "name": "Full Arms", "price": 35 },
         { "name": "Half Arms", "price": 25 },
-        { "name": "Full Body", "price": 270 },
-        { "name": "Half Legs", "price": 35 }
+        { "name": "Stomach", "price": 20 },
+        { "name": "Underarms", "price": 15 },
+        { "name": "Brazilian", "price": 50 },
+        { "name": "Bikini", "price": 30 },
+        { "name": "Butt Hair", "price": 20 },
+        { "name": "Chest", "price": 45 },
+        { "name": "Back", "price": 45 },
+        { "name": "Half Front", "priceLabel": "Contact for pricing" },
+        { "name": "Full Body", "price": 270 }
       ]
     },
     {
-      "name": "Facials",
-      "slug": "facials",
-      "description": "Restorative treatments combining cleansing, exfoliation, masking and hydration for your skin's current needs.",
-      "items": [
-        { "name": "Gold Facial", "price": 75 },
-        { "name": "Diamond Facial", "price": 75 },
-        { "name": "Dermalogica Facial", "price": 70 },
-        { "name": "Mini Facial", "price": 50 }
-      ]
-    },
-    {
-      "name": "Henna Tattoos",
+      "name": "Henna Tattoo",
       "slug": "henna",
       "description": "Detailed designs made with natural henna paste for ceremonies, celebrations or simply because you love the art.",
       "items": [
         { "name": "Custom Henna Design", "priceLabel": "Contact for pricing" }
+      ]
+    },
+    {
+      "name": "Bridal Hair & Makeup",
+      "slug": "bridal-hair-makeup",
+      "description": "Personalized bridal hair and makeup designed to complement your features, attire and celebration.",
+      "items": [
+        { "name": "Bridal Hair & Makeup", "priceLabel": "Contact for pricing" }
       ]
     }
   ],
