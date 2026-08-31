@@ -195,34 +195,28 @@
   ],
   "reviews": [
     {
-      "name": "Priya S.",
+      "name": "Lilli J",
       "rating": 5,
-      "quote": "My brows came out beautifully shaped and still looked completely natural. The whole appointment felt calm and welcoming."
+      "relativeDate": "2 days ago",
+      "quote": "I stopped into J’s Beauty & Threading Salon because they just opened and I wanted to support a new local business and I’m SO glad I did! The entire team was incredibly kind, welcoming, and professional. Sita did an amazing job on my eyebrows, and Monica gave me the PERFECT butterfly haircut for only $25! I’m very picky about both my hair and brows, and I can confidently say I’ve found my new go-to spot. Amazing women, amazing prices, and amazing service. I’ll definitely be coming back! 💕"
     },
     {
-      "name": "Elena R.",
+      "name": "Oswaldo Grajeda",
       "rating": 5,
-      "quote": "I love my lash lift. The curl is soft, even and exactly what I hoped for, and the service was thoughtful from start to finish."
+      "relativeDate": "4 days ago",
+      "quote": "Thank you so much for doing my eyebrows my go to place for threading js beauty & threading"
     },
     {
-      "name": "Jasmine T.",
+      "name": "Dinesh Basnet",
       "rating": 5,
-      "quote": "Quick, precise and gentle threading with no rushed feeling. I walked out feeling polished and confident."
+      "relativeDate": "1 week ago",
+      "summary": "Five-star experience with eyebrow shaping and threading, waxing, lash lift and brow lamination services."
     },
     {
-      "name": "Nicole B.",
+      "name": "Justin Gray",
       "rating": 5,
-      "quote": "The facial was deeply relaxing and left my skin smooth and glowing. I appreciated the care and attention to every detail."
-    },
-    {
-      "name": "Aisha K.",
-      "rating": 5,
-      "quote": "Such a clean, comfortable salon with genuinely kind service. My waxing appointment was efficient and the results were excellent."
-    },
-    {
-      "name": "Marisol D.",
-      "rating": 5,
-      "quote": "My lash extensions look full without feeling heavy. The shape suits my eyes perfectly, and they have lasted beautifully."
+      "relativeDate": "1 week ago",
+      "quote": "Did eyebrow they did my cheeks They were excellent service. Excellent atmosphere, new place to go, definitely must go."
     }
   ],
   "gallery": [
