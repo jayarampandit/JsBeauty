@@ -66,6 +66,12 @@
   ],
   "serviceCards": [
     {
+      "name": "Bridal Hair & Makeup",
+      "slug": "bridal-hair-makeup",
+      "image": "/images/bridal-hair-makeup.png",
+      "description": "Elegant bridal hair and makeup tailored to your style and celebration."
+    },
+    {
       "name": "Lash Lift",
       "slug": "lash-lift-tint",
       "image": "/images/lash-lift.png",
@@ -94,15 +100,17 @@
       "slug": "henna",
       "image": "/images/henna.png",
       "description": "Intricate natural henna artistry for celebrations, ceremonies and personal expression."
-    },
-    {
-      "name": "Bridal Hair & Makeup",
-      "slug": "bridal-hair-makeup",
-      "image": "/images/hero.png",
-      "description": "Elegant bridal hair and makeup tailored to your style and celebration."
     }
   ],
   "serviceGroups": [
+    {
+      "name": "Bridal Hair & Makeup",
+      "slug": "bridal-hair-makeup",
+      "description": "Personalized bridal hair and makeup designed to complement your features, attire and celebration.",
+      "items": [
+        { "name": "Bridal Hair & Makeup", "priceLabel": "Starting at $260" }
+      ]
+    },
     {
       "name": "Lash Lift",
       "slug": "lash-lift-tint",
@@ -111,7 +119,7 @@
         { "name": "Lash Perm", "price": 75 },
         { "name": "Lash Tint", "price": 35 },
         { "name": "Ombre Tint", "priceLabel": "Contact for pricing" },
-        { "name": "Eyebrow Lamination", "priceLabel": "Contact for pricing" },
+        { "name": "Brow Lamination", "price": 70 },
         { "name": "Eyebrow Tint", "price": 15 }
       ]
     },
@@ -182,14 +190,6 @@
       "description": "Detailed designs made with natural henna paste for ceremonies, celebrations or simply because you love the art.",
       "items": [
         { "name": "Custom Henna Design", "priceLabel": "Contact for pricing" }
-      ]
-    },
-    {
-      "name": "Bridal Hair & Makeup",
-      "slug": "bridal-hair-makeup",
-      "description": "Personalized bridal hair and makeup designed to complement your features, attire and celebration.",
-      "items": [
-        { "name": "Bridal Hair & Makeup", "priceLabel": "Contact for pricing" }
       ]
     }
   ],

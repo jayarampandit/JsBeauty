@@ -1,9 +1,16 @@
+import type { Metadata } from "next";
 import { Award, Heart, ShieldCheck } from "lucide-react";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import InnerHero from "@/components/InnerHero";
 import SalonImage from "@/components/SalonImage";
 import site from "@/data/site.json";
+
+export const metadata: Metadata = {
+  title: "Our Story",
+  description: "Meet Sita Pandit and learn about the experience, personal care and thoughtful technique behind JS Beauty & Threading in Pinole, CA.",
+  alternates: { canonical: "/about" },
+};
 
 const icons = [Award, Heart, ShieldCheck];
 export default function AboutPage() {
