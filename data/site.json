@@ -30,7 +30,7 @@
     "eyebrow": "BEAUTY THAT FEELS LIKE YOU",
     "title": "Embrace the beauty within.",
     "description": "JS Beauty & Threading offers expert care in threading, lashes, waxing, facials and more—so you can look and feel your absolute best, every day.",
-    "image": "/images/homebanner.png"
+    "image": "/images/mainbannerfive.png"
   },
   "about": {
     "kicker": "NATURAL BEAUTY, PERSONAL CARE",
@@ -93,7 +93,7 @@
     {
       "name": "Waxing",
       "slug": "waxing",
-      "image": "/images/waxing-jasmi.jpg",
+      "image": "/images/waxingfour.webp",
       "description": "Face and body waxing using professional products and careful technique."
     },
     {
@@ -227,27 +227,27 @@
       "label": "Our studio"
     },
     {
-      "src": "/images/threading.png",
+      "src": "/images/gallery-threading.jpg",
       "alt": "Precision eyebrow threading",
       "label": "Threading"
     },
     {
-      "src": "/images/lash-extensions-jasmi.webp",
+      "src": "/images/gallery-lashes.jpg",
       "alt": "Naturally lifted lashes",
       "label": "Lashes"
     },
     {
-      "src": "/images/facial.png",
-      "alt": "Restorative facial treatment",
-      "label": "Facials"
+      "src": "/images/gallery-bridal.webp",
+      "alt": "Bridal hair and makeup styling",
+      "label": "Bridal"
     },
     {
-      "src": "/images/henna-jasmi.jpeg",
+      "src": "/images/gallery-henna.jpg",
       "alt": "Intricate natural henna design",
       "label": "Henna"
     },
     {
-      "src": "/images/waxing-jasmi.jpg",
+      "src": "/images/gallery-waxing.jpg",
       "alt": "Professional waxing treatment",
       "label": "Waxing"
     }

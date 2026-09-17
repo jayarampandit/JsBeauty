@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Clock3, Instagram, Facebook, Music2, Mail, Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
@@ -7,7 +8,11 @@ import site from "@/data/site.json";
 import BookingLink from "@/components/BookingLink";
 
 export function Logo() {
-  return <Link className="logo" href="/"><span>JS</span><small>BEAUTY & THREADING</small></Link>;
+  return (
+    <Link className="logo" href="/">
+      <Image src="/images/mainlogotransparent.png" alt="JS Beauty & Threading" width={190} height={83} priority />
+    </Link>
+  );
 }
 
 export default function Header() {

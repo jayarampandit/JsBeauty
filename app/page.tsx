@@ -45,7 +45,7 @@ export default function Home() {
             className="hero-img-desktop"
           />
           <SalonImage
-            src="/images/homebanner.png"
+            src="/images/mainbannerfive.png"
             alt="Serene client representing natural beauty"
             fill
             priority
