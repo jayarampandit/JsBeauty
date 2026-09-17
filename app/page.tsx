@@ -15,6 +15,7 @@ import {
   Star,
 } from "lucide-react";
 import ServiceIcon from "@/components/ServiceIcon";
+import BookingLink from "@/components/BookingLink";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import SalonImage from "@/components/SalonImage";
@@ -34,25 +35,38 @@ export default function Home() {
     <main>
       <Header />
       <section className="hero-home">
-        <SalonImage
-          src={site.hero.image}
-          alt="Serene client representing natural beauty"
-          fill
-          priority
-          sizes="100vw"
-        />
-        <div className="hero-wash" />
+        <div className="hero-media">
+          <SalonImage
+            src={site.hero.image}
+            alt="Serene client representing natural beauty"
+            fill
+            priority
+            sizes="100vw"
+            className="hero-img-desktop"
+          />
+          <SalonImage
+            src="/images/mobilehomebanner.jpg"
+            alt="Serene client representing natural beauty"
+            fill
+            priority
+            sizes="100vw"
+            className="hero-img-mobile"
+          />
+          <div className="hero-wash" />
+        </div>
         <div className="hero-content page-width">
           <h1>
             Embrace
             <br />
-            the <em>beauty</em> within.
+            the <em>beauty</em>
+            <br />
+            within.
           </h1>
           <p>{site.hero.description}</p>
           <div className="hero-actions">
-            <a className="button solid" href={site.business.bookingUrl}>
+            <BookingLink className="button solid">
               Book an appointment
-            </a>
+            </BookingLink>
             <Link className="button outline" href="/services">
               View services
             </Link>
@@ -78,9 +92,9 @@ export default function Home() {
             </div>
             <div>
               <h3>{service.name}</h3>
-              <a href={site.business.bookingUrl}>
+              <BookingLink>
                 Book now <ArrowRight size={14} />
-              </a>
+              </BookingLink>
             </div>
           </article>
         ))}
@@ -106,7 +120,7 @@ export default function Home() {
             <div className="collage-a">
               <SalonImage
                 src={site.about.nourishImages.left}
-                alt="Refined lash care"
+                alt="Clients relaxing at JS Beauty & Threading"
                 fill
                 sizes="260px"
               />
@@ -127,7 +141,7 @@ export default function Home() {
             <div className="collage-c">
               <SalonImage
                 src={site.about.nourishImages.right}
-                alt="Relaxing facial treatment"
+                alt="Calming spa atmosphere at JS Beauty & Threading"
                 fill
                 sizes="260px"
               />
@@ -185,9 +199,9 @@ export default function Home() {
             <Link className="text-link" href="/services">
               View all prices <ArrowRight size={15} />
             </Link>
-            <a className="button solid" href={site.business.bookingUrl}>
+            <BookingLink className="button solid">
               Book now
-            </a>
+            </BookingLink>
           </div>
         </div>
         <div className="pricing-preview">
@@ -306,9 +320,9 @@ export default function Home() {
           <CalendarCheck size={32} />
           <h2>Ready to glow?</h2>
           <p>Book your appointment today and let us take care of the rest.</p>
-          <a className="button light" href={site.business.bookingUrl}>
+          <BookingLink className="button light">
             Book your visit
-          </a>
+          </BookingLink>
         </article>
       </section>
       <Footer />

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import site from "@/data/site.json";
+import BookingScheduler from "@/components/BookingScheduler";
 import "./globals.css";
 
 const vercelHost = process.env.VERCEL_PROJECT_PRODUCTION_URL ?? process.env.VERCEL_URL;
@@ -95,5 +96,5 @@ const localBusinessSchema = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema).replace(/</g, "\\u003c") }} /></body></html>;
+  return <html lang="en"><body>{children}<BookingScheduler /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema).replace(/</g, "\\u003c") }} /></body></html>;
 }

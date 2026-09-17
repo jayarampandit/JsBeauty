@@ -14,7 +14,8 @@
     "email": "jasmibeautythreading@gmail.com",
     "googleReviewCount": 2,
     "directionsUrl": "https://www.google.com/maps/search/?api=1&query=624%20San%20Pablo%20Ave%20B%2C%20Pinole%2C%20CA%2094564",
-    "bookingUrl": "tel:+15108234256"
+    "bookingUrl": "tel:+15108234256",
+    "schedulingUrl": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ3iqx2kMSwSIIbaahZbcNsNBsFSanwv5KU_l2E27fLdS1TkyEn4sQFoUYeVGdZH2_OV6KYVRS69?gv=true"
   },
   "hours": [
     { "day": "Monday", "hours": "Closed", "closed": true },
@@ -29,16 +30,16 @@
     "eyebrow": "BEAUTY THAT FEELS LIKE YOU",
     "title": "Embrace the beauty within.",
     "description": "JS Beauty & Threading offers expert care in threading, lashes, waxing, facials and more—so you can look and feel your absolute best, every day.",
-    "image": "/images/hero-natural-orchids.png"
+    "image": "/images/homebanner3.png"
   },
   "about": {
     "kicker": "NATURAL BEAUTY, PERSONAL CARE",
     "title": "Nourish your natural beauty",
     "summary": "We believe beauty begins with self-respect. Every treatment is tailored to your features, comfort and routine in a welcoming space where you can slow down and feel at home.",
     "nourishImages": {
-      "left": "/images/lashes.png",
-      "center": "/images/js-beauty-salon-interior.png",
-      "right": "/images/facial.png"
+      "left": "/images/nourish-left-jasmi.webp",
+      "center": "/images/nourish-center-jasmi.webp",
+      "right": "/images/nourish-right-jasmi.webp"
     },
     "storyTitle": "Expertise with heart",
     "story": [
@@ -68,7 +69,7 @@
     {
       "name": "Bridal Hair & Makeup",
       "slug": "bridal-hair-makeup",
-      "image": "/images/bridal-hair-makeup.png",
+      "image": "/images/bridal-makeup-jasmi.jpg",
       "description": "Elegant bridal hair and makeup tailored to your style and celebration."
     },
     {
@@ -80,25 +81,25 @@
     {
       "name": "Threading",
       "slug": "threading",
-      "image": "/images/threading.png",
+      "image": "/images/threading-jasmi.jpg",
       "description": "Precise facial hair removal and custom brow shaping with gentle cotton thread."
     },
     {
       "name": "Lash Extensions",
       "slug": "lash-extensions",
-      "image": "/images/lashes.png",
+      "image": "/images/lash-extensions-jasmi.webp",
       "description": "Classic, volume, hybrid, individual and cluster lashes tailored to your style."
     },
     {
       "name": "Waxing",
       "slug": "waxing",
-      "image": "/images/waxing.png",
+      "image": "/images/waxing-jasmi.jpg",
       "description": "Face and body waxing using professional products and careful technique."
     },
     {
       "name": "Henna Tattoo",
       "slug": "henna",
-      "image": "/images/henna.png",
+      "image": "/images/henna-jasmi.jpeg",
       "description": "Intricate natural henna artistry for celebrations, ceremonies and personal expression."
     }
   ],
@@ -221,17 +222,17 @@
   ],
   "gallery": [
     {
-      "src": "/images/salon.png",
+      "src": "/images/js-beauty-salon-interior.png",
       "alt": "Elegant JS Beauty salon interior",
       "label": "Our studio"
     },
     {
-      "src": "/images/threading.png",
+      "src": "/images/threading-jasmi.jpg",
       "alt": "Precision eyebrow threading",
       "label": "Threading"
     },
     {
-      "src": "/images/lashes.png",
+      "src": "/images/lash-extensions-jasmi.webp",
       "alt": "Naturally lifted lashes",
       "label": "Lashes"
     },
@@ -241,12 +242,12 @@
       "label": "Facials"
     },
     {
-      "src": "/images/henna.png",
+      "src": "/images/henna-jasmi.jpeg",
       "alt": "Intricate natural henna design",
       "label": "Henna"
     },
     {
-      "src": "/images/waxing.png",
+      "src": "/images/waxing-jasmi.jpg",
       "alt": "Professional waxing treatment",
       "label": "Waxing"
     }
