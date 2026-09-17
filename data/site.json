@@ -30,7 +30,7 @@
     "eyebrow": "BEAUTY THAT FEELS LIKE YOU",
     "title": "Embrace the beauty within.",
     "description": "JS Beauty & Threading offers expert care in threading, lashes, waxing, facials and more—so you can look and feel your absolute best, every day.",
-    "image": "/images/homebanner3.png"
+    "image": "/images/homebanner.png"
   },
   "about": {
     "kicker": "NATURAL BEAUTY, PERSONAL CARE",
@@ -38,7 +38,7 @@
     "summary": "We believe beauty begins with self-respect. Every treatment is tailored to your features, comfort and routine in a welcoming space where you can slow down and feel at home.",
     "nourishImages": {
       "left": "/images/nourish-left-jasmi.webp",
-      "center": "/images/nourish-center-jasmi.webp",
+      "center": "/images/nourishtwo.webp",
       "right": "/images/nourish-right-jasmi.webp"
     },
     "storyTitle": "Expertise with heart",
@@ -67,6 +67,18 @@
   ],
   "serviceCards": [
     {
+      "name": "Threading",
+      "slug": "threading",
+      "image": "/images/threading.png",
+      "description": "Precise facial hair removal and custom brow shaping with gentle cotton thread."
+    },
+    {
+      "name": "Lash Extensions",
+      "slug": "lash-extensions",
+      "image": "/images/lash-extensions-jasmi.webp",
+      "description": "Classic, volume, hybrid, individual and cluster lashes tailored to your style."
+    },
+    {
       "name": "Bridal Hair & Makeup",
       "slug": "bridal-hair-makeup",
       "image": "/images/bridal-makeup-jasmi.jpg",
@@ -75,20 +87,8 @@
     {
       "name": "Lash Lift",
       "slug": "lash-lift-tint",
-      "image": "/images/lash-lift.png",
+      "image": "/images/lashlift.png",
       "description": "Lash perm, tint and brow-enhancing treatments for polished, low-maintenance definition."
-    },
-    {
-      "name": "Threading",
-      "slug": "threading",
-      "image": "/images/threading-jasmi.jpg",
-      "description": "Precise facial hair removal and custom brow shaping with gentle cotton thread."
-    },
-    {
-      "name": "Lash Extensions",
-      "slug": "lash-extensions",
-      "image": "/images/lash-extensions-jasmi.webp",
-      "description": "Classic, volume, hybrid, individual and cluster lashes tailored to your style."
     },
     {
       "name": "Waxing",
@@ -104,26 +104,6 @@
     }
   ],
   "serviceGroups": [
-    {
-      "name": "Bridal Hair & Makeup",
-      "slug": "bridal-hair-makeup",
-      "description": "Personalized bridal hair and makeup designed to complement your features, attire and celebration.",
-      "items": [
-        { "name": "Bridal Hair & Makeup", "priceLabel": "Starting at $260" }
-      ]
-    },
-    {
-      "name": "Lash Lift",
-      "slug": "lash-lift-tint",
-      "description": "Lift, tint and brow treatments that brighten the eyes and enhance your natural features.",
-      "items": [
-        { "name": "Lash Perm", "price": 75 },
-        { "name": "Lash Tint", "price": 35 },
-        { "name": "Ombre Tint", "priceLabel": "Contact for pricing" },
-        { "name": "Brow Lamination", "price": 70 },
-        { "name": "Eyebrow Tint", "price": 15 }
-      ]
-    },
     {
       "name": "Threading",
       "slug": "threading",
@@ -152,6 +132,26 @@
         { "name": "Individual Eyelashes", "price": 50 },
         { "name": "Cluster Lashes", "priceLabel": "Contact for pricing" },
         { "name": "Eyelash Removal", "price": 30 }
+      ]
+    },
+    {
+      "name": "Bridal Hair & Makeup",
+      "slug": "bridal-hair-makeup",
+      "description": "Personalized bridal hair and makeup designed to complement your features, attire and celebration.",
+      "items": [
+        { "name": "Bridal Hair & Makeup", "priceLabel": "Starting at $260" }
+      ]
+    },
+    {
+      "name": "Lash Lift",
+      "slug": "lash-lift-tint",
+      "description": "Lift, tint and brow treatments that brighten the eyes and enhance your natural features.",
+      "items": [
+        { "name": "Lash Perm", "price": 75 },
+        { "name": "Lash Tint", "price": 35 },
+        { "name": "Ombre Tint", "priceLabel": "Contact for pricing" },
+        { "name": "Brow Lamination", "price": 70 },
+        { "name": "Eyebrow Tint", "price": 15 }
       ]
     },
     {
@@ -227,7 +227,7 @@
       "label": "Our studio"
     },
     {
-      "src": "/images/threading-jasmi.jpg",
+      "src": "/images/threading.png",
       "alt": "Precision eyebrow threading",
       "label": "Threading"
     },

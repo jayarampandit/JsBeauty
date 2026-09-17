@@ -45,7 +45,7 @@ export default function Home() {
             className="hero-img-desktop"
           />
           <SalonImage
-            src="/images/mobilehomebanner.jpg"
+            src="/images/homebanner.png"
             alt="Serene client representing natural beauty"
             fill
             priority
@@ -102,11 +102,19 @@ export default function Home() {
       <section className="natural-section">
         <div className="natural-inner page-width">
           <div className="natural-copy">
-            <SectionIntro
-              eyebrow={site.about.kicker}
-              title={"Nourish your <em>natural beauty</em>"}
-              copy={site.about.summary}
-            />
+            <div className="section-intro">
+              <p className="eyebrow">{site.about.kicker}</p>
+              <h2 dangerouslySetInnerHTML={{ __html: "Nourish your <em>natural beauty</em>" }} />
+            </div>
+            <div className="natural-collage-mobile">
+              <SalonImage
+                src={site.about.nourishImages.right}
+                alt="Calming spa atmosphere at JS Beauty & Threading"
+                fill
+                sizes="100vw"
+              />
+            </div>
+            <p className="natural-summary">{site.about.summary}</p>
             <div className="small-benefits">
               <span>Expert care</span>
               <span>Premium products</span>
@@ -126,17 +134,12 @@ export default function Home() {
               />
             </div>
             <div className="collage-b">
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                preload="metadata"
-                poster={site.about.nourishImages.center}
-                aria-label="Inside JS Beauty & Threading's Pinole salon"
-              >
-                <source src="/images/salon.mp4" type="video/mp4" />
-              </video>
+              <SalonImage
+                src={site.about.nourishImages.center}
+                alt="Relaxing spa treatment at JS Beauty & Threading"
+                fill
+                sizes="260px"
+              />
             </div>
             <div className="collage-c">
               <SalonImage
@@ -217,6 +220,31 @@ export default function Home() {
                   <b>{"price" in item ? `$${item.price}` : item.priceLabel}</b>
                 </div>
               ))}
+            </article>
+          ))}
+        </div>
+        <div className="full-menu pricing-full-mobile">
+          {site.serviceGroups.map((group) => (
+            <article className="menu-group" key={group.name}>
+              <div className="menu-group-heading">
+                <span>
+                  <ServiceIcon service={group.slug} size={24} />
+                </span>
+                <div>
+                  <h2>{group.name}</h2>
+                  <p>{group.description}</p>
+                </div>
+              </div>
+              <div className="menu-items">
+                {group.items.map((item) => (
+                  <div key={item.name}>
+                    <span>{item.name}</span>
+                    <i />
+                    <b>{"price" in item ? `$${item.price}` : item.priceLabel}</b>
+                  </div>
+                ))}
+              </div>
+              <BookingLink className="button solid">Book {group.name}</BookingLink>
             </article>
           ))}
         </div>

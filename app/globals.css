@@ -364,7 +364,7 @@ img {
   font-size: 49px;
   max-width: 380px;
 }
-.natural-copy .section-intro > p:last-child {
+.natural-copy > p.natural-summary {
   margin: 23px 0;
 }
 .small-benefits {
@@ -421,6 +421,9 @@ img {
 }
 .collage-c img {
   object-position: center;
+}
+.natural-collage-mobile {
+  display: none;
 }
 .benefits {
   padding-top: 35px;
@@ -513,6 +516,9 @@ img {
   border: 1px solid var(--line);
   border-radius: 10px;
   overflow: hidden;
+}
+.full-menu.pricing-full-mobile {
+  display: none;
 }
 .pricing-preview article {
   min-height: 300px;
@@ -850,10 +856,16 @@ img {
 .inner-hero > img {
   object-position: center 45%;
 }
+.inner-hero-img-mobile {
+  display: none;
+}
 .inner-hero-wash {
   position: absolute;
   inset: 0;
   background: linear-gradient(90deg, #fff6f3f2 0 44%, #fff6f355 70%, #fff6f31a);
+}
+.inner-hero-bright .inner-hero-wash {
+  background: linear-gradient(90deg, #fff6f399 0 36%, #fff6f326 65%, #fff6f300);
 }
 .inner-hero > .page-width {
   position: relative;
@@ -1198,6 +1210,7 @@ img {
   .header {
     height: 72px;
     padding: 0 16px;
+    grid-template-columns: 1fr auto;
   }
   .header .logo span {
     font-size: 34px;
@@ -1295,7 +1308,17 @@ img {
     font-size: 44px;
   }
   .natural-collage {
+    display: none;
+  }
+  .natural-collage-mobile {
+    display: block;
+    position: relative;
     height: 300px;
+    margin: 20px 0;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 5px solid #fff8f6;
+    box-shadow: 0 12px 30px rgba(80, 23, 31, 0.12);
   }
   .benefit-grid {
     grid-template-columns: 1fr;
@@ -1376,14 +1399,35 @@ img {
   .inner-hero > img {
     object-position: 65% center;
   }
+  .inner-hero-img-desktop {
+    display: none;
+  }
+  .inner-hero-img-mobile {
+    display: block;
+    object-position: center top;
+  }
   .inner-hero-wash {
     background: linear-gradient(0deg, #fff6f3fa 0 55%, #fff6f333);
+  }
+  .inner-hero-split-wash .inner-hero-wash {
+    background: linear-gradient(0deg, #fff6f3fa 0 22%, #fff6f333 48%);
+  }
+  .inner-hero-split-wash .eyebrow,
+  .inner-hero-split-wash h1,
+  .inner-hero-split-wash > .page-width > p {
+    text-shadow: 0 1px 3px #fffaf8, 0 1px 16px #fffaf8;
   }
   .inner-hero h1 {
     font-size: 46px;
   }
   .full-menu {
     grid-template-columns: 1fr;
+  }
+  .pricing-preview {
+    display: none;
+  }
+  .full-menu.pricing-full-mobile {
+    display: grid;
   }
   .story-page {
     grid-template-columns: 1fr;
