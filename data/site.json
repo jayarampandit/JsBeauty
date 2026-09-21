@@ -44,7 +44,7 @@
     "storyTitle": "Expertise with heart",
     "story": [
       "Founder Sita Pandit built her beauty career through more than a decade of hands-on experience, continuous learning and a genuine love for helping clients feel confident.",
-      "Her specialty began with threading, brow shaping and waxing, then grew into a complete beauty practice offering lashes, facials and henna. Every service is guided by attentive consultation and precise technique.",
+      "Her specialty began with threading, brow shaping and waxing, then grew into a complete beauty practice offering lash extensions, brow lamination, lash lift and henna. Every service is guided by attentive consultation and precise technique.",
       "Today, JS Beauty & Threading brings that same personal approach to Pinole: a warm salon for every client who values thoughtful service, quality products and results that still feel like themselves."
     ],
     "founder": "Sita Pandit",
@@ -115,10 +115,10 @@
         { "name": "Cheeks", "price": 10 },
         { "name": "Chin", "price": 9 },
         { "name": "Forehead", "price": 8 },
-        { "name": "Sideburns", "price": 10 },
+        { "name": "Sideburns", "price": 15 },
         { "name": "Neck", "price": 10 },
         { "name": "Full Face", "price": 40 },
-        { "name": "Men's Eyebrows", "priceLabel": "Contact for pricing" }
+        { "name": "Men's Eyebrows", "price": 15 }
       ]
     },
     {
@@ -130,7 +130,7 @@
         { "name": "Volume Set", "price": 125 },
         { "name": "Hybrid Set", "price": 120 },
         { "name": "Individual Eyelashes", "price": 50 },
-        { "name": "Cluster Lashes", "priceLabel": "Contact for pricing" },
+        { "name": "Cluster Lashes", "price": 45 },
         { "name": "Eyelash Removal", "price": 30 }
       ]
     },
@@ -149,6 +149,7 @@
       "items": [
         { "name": "Lash Perm", "price": 75 },
         { "name": "Lash Tint", "price": 35 },
+        { "name": "Hybrid Dye", "price": 22 },
         { "name": "Ombre Tint", "priceLabel": "Contact for pricing" },
         { "name": "Brow Lamination", "price": 70 },
         { "name": "Eyebrow Tint", "price": 15 }
@@ -165,11 +166,11 @@
         { "name": "Cheeks", "price": 10 },
         { "name": "Chin", "price": 9 },
         { "name": "Forehead", "price": 10 },
-        { "name": "Sideburns", "price": 15 },
+        { "name": "Sideburns", "price": 20 },
         { "name": "Neck", "price": 12 },
         { "name": "Nose", "price": 20 },
         { "name": "Full Face", "price": 45 },
-        { "name": "Men's Eyebrows", "priceLabel": "Contact for pricing" },
+        { "name": "Men's Eyebrows", "price": 15 },
         { "name": "Full Legs", "price": 50 },
         { "name": "Half Legs", "price": 35 },
         { "name": "Full Arms", "price": 35 },
@@ -250,6 +251,36 @@
       "src": "/images/gallery-waxing.jpg",
       "alt": "Professional waxing treatment",
       "label": "Waxing"
+    },
+    {
+      "src": "/images/waxing.png",
+      "alt": "Applying wax for leg treatment",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/waxing-jasmi.jpg",
+      "alt": "Leg waxing treatment in progress",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/eyebrow-tint.png",
+      "alt": "Brow shaping and grooming close-up",
+      "label": "Brow Lamination"
+    },
+    {
+      "src": "/images/threading-jasmi.jpg",
+      "alt": "Close-up eyebrow threading technique",
+      "label": "Threading"
+    },
+    {
+      "src": "/images/henna.png",
+      "alt": "Detailed henna design on hand",
+      "label": "Henna"
+    },
+    {
+      "src": "/images/bridal-hair-makeup.png",
+      "alt": "Bridal hair and makeup look",
+      "label": "Bridal"
     }
   ],
   "policies": {
