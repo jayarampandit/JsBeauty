@@ -485,6 +485,10 @@ img {
   overflow: hidden;
   background: var(--blush);
 }
+.gallery-row figure.gallery-fit-contain img {
+  object-fit: contain;
+  background: var(--blush);
+}
 .gallery-row figcaption {
   position: absolute;
   left: 8px;
@@ -854,6 +858,9 @@ img {
 }
 .inner-hero-bright .inner-hero-wash {
   background: linear-gradient(90deg, #fff6f399 0 36%, #fff6f326 65%, #fff6f300);
+}
+.inner-hero-no-image .inner-hero-wash {
+  background: #fff6f3;
 }
 .inner-hero > .page-width {
   position: relative;
@@ -1638,6 +1645,20 @@ img {
   .heading-actions {
     flex-wrap: wrap;
     gap: 14px;
+  }
+}
+.inner-hero-no-image {
+  min-height: 220px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.inner-hero-no-image + .full-menu {
+  padding-top: 20px;
+}
+@media (max-width: 700px) {
+  .inner-hero-no-image {
+    min-height: 200px;
+    padding-bottom: 24px;
   }
 }
 

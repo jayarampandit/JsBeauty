@@ -268,19 +268,19 @@
       "label": "Brow Lamination"
     },
     {
-      "src": "/images/threading-jasmi.jpg",
-      "alt": "Close-up eyebrow threading technique",
-      "label": "Threading"
+      "src": "/images/before-after-threading.png",
+      "alt": "Eyebrow threading before and after",
+      "label": "Before & After"
     },
     {
-      "src": "/images/henna.png",
-      "alt": "Detailed henna design on hand",
-      "label": "Henna"
+      "src": "/images/before-after-brow-shaping.png",
+      "alt": "Brow shaping before and after",
+      "label": "Before & After"
     },
     {
-      "src": "/images/bridal-hair-makeup.png",
-      "alt": "Bridal hair and makeup look",
-      "label": "Bridal"
+      "src": "/images/before-after-eyebrow.png",
+      "alt": "Eyebrow grooming before and after",
+      "label": "Before & After"
     }
   ],
   "policies": {

@@ -183,7 +183,7 @@ export default function Home() {
         </div>
         <div className="gallery-row">
           {site.gallery.map((image) => (
-            <figure key={image.label}>
+            <figure key={image.src} className={image.label === "Before & After" ? "gallery-fit-contain" : undefined}>
               <SalonImage
                 src={image.src}
                 alt={image.alt}
@@ -304,7 +304,7 @@ export default function Home() {
         </div>
         <div className="social-grid">
           {site.gallery.map((image) => (
-            <div key={image.label}>
+            <div key={image.src}>
               <SalonImage src={image.src} alt={image.alt} fill sizes="150px" />
             </div>
           ))}
