@@ -73,10 +73,22 @@
       "description": "Precise facial hair removal and custom brow shaping with gentle cotton thread."
     },
     {
-      "name": "Lash Extensions",
-      "slug": "lash-extensions",
-      "image": "/images/lash-extensions-jasmi.webp",
-      "description": "Classic, volume, hybrid, individual and cluster lashes tailored to your style."
+      "name": "Brow Lamination",
+      "slug": "brow-lamination",
+      "image": "/images/lamination.jpg",
+      "description": "Lifted, fuller-looking brows with a smooth lamination finish that holds for weeks."
+    },
+    {
+      "name": "Lash Lift",
+      "slug": "lash-lift",
+      "image": "/images/lash-lift.png",
+      "description": "Lash perm treatment for naturally curled, wide-eyed lashes without extensions."
+    },
+    {
+      "name": "Lash Tint",
+      "slug": "lash-tint",
+      "image": "/images/lash-tint.png",
+      "description": "Semi-permanent lash tinting for darker, more defined lashes, no mascara needed."
     },
     {
       "name": "Bridal Hair & Makeup",
@@ -85,22 +97,22 @@
       "description": "Elegant bridal hair and makeup tailored to your style and celebration."
     },
     {
-      "name": "Lash Lift",
-      "slug": "lash-lift-tint",
-      "image": "/images/lashlift.png",
-      "description": "Lash perm, tint and brow-enhancing treatments for polished, low-maintenance definition."
+      "name": "Henna Tattoo",
+      "slug": "henna",
+      "image": "/images/henna-jasmi.jpeg",
+      "description": "Intricate natural henna artistry for celebrations, ceremonies and personal expression."
+    },
+    {
+      "name": "Lash Extensions",
+      "slug": "lash-extensions",
+      "image": "/images/lash-extensions-jasmi.webp",
+      "description": "Classic, volume, hybrid, individual and cluster lashes tailored to your style."
     },
     {
       "name": "Waxing",
       "slug": "waxing",
       "image": "/images/waxingfour.webp",
       "description": "Face and body waxing using professional products and careful technique."
-    },
-    {
-      "name": "Henna Tattoo",
-      "slug": "henna",
-      "image": "/images/henna-jasmi.jpeg",
-      "description": "Intricate natural henna artistry for celebrations, ceremonies and personal expression."
     }
   ],
   "serviceGroups": [
