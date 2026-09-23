@@ -281,7 +281,6 @@ export default function Home() {
                 <span>{review.name.charAt(0)}</span>
                 <div>
                   <b>{review.name}</b>
-                  <small>{review.relativeDate}</small>
                 </div>
               </footer>
             </blockquote>
@@ -303,7 +302,7 @@ export default function Home() {
           </div>
         </div>
         <div className="social-grid">
-          {site.gallery.map((image) => (
+          {site.gallery.slice(0, 6).map((image) => (
             <div key={image.src}>
               <SalonImage src={image.src} alt={image.alt} fill sizes="150px" />
             </div>

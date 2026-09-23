@@ -293,6 +293,36 @@
       "src": "/images/before-after-eyebrow.png",
       "alt": "Eyebrow grooming before and after",
       "label": "Before & After"
+    },
+    {
+      "src": "/images/gallery-threading-action.jpg",
+      "alt": "Close-up eyebrow threading in progress",
+      "label": "Threading"
+    },
+    {
+      "src": "/images/gallery-threading-studio.jpg",
+      "alt": "Studio close-up of eyebrow threading",
+      "label": "Threading"
+    },
+    {
+      "src": "/images/gallery-threading-male.jpg",
+      "alt": "Men's eyebrow grooming and tweezing",
+      "label": "Threading"
+    },
+    {
+      "src": "/images/gallery-lash-extensions-closeup.webp",
+      "alt": "Full, natural-looking lash extensions close-up",
+      "label": "Lash Extensions"
+    },
+    {
+      "src": "/images/gallery-henna-arm.jpg",
+      "alt": "Detailed henna design on hand and arm",
+      "label": "Henna"
+    },
+    {
+      "src": "/images/gallery-waxing-honey.jpg",
+      "alt": "Honey wax stick styled with flowers",
+      "label": "Waxing"
     }
   ],
   "policies": {
