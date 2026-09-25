@@ -80,24 +80,65 @@ export default function Home() {
         className="service-showcase page-width"
         aria-label="Featured services"
       >
-        {site.serviceCards.map((service) => (
-          <article className="service-tile" key={service.name}>
-            <div className="tile-image">
+        {site.serviceCards.map((service) => {
+          const isBrowLamination = service.slug === "brow-lamination";
+          return (
+            <article className="service-tile" key={service.name}>
+              <div className="tile-image">
+                {isBrowLamination ? (
+                  <Link href="#brow-lamination-spotlight">
+                    <SalonImage
+                      src={service.image}
+                      alt={service.name}
+                      fill
+                      sizes="(max-width: 700px) 50vw, 25vw"
+                    />
+                  </Link>
+                ) : (
+                  <SalonImage
+                    src={service.image}
+                    alt={service.name}
+                    fill
+                    sizes="(max-width: 700px) 50vw, 25vw"
+                  />
+                )}
+              </div>
+              <div>
+                <h3>
+                  {isBrowLamination ? (
+                    <Link href="#brow-lamination-spotlight">{service.name}</Link>
+                  ) : (
+                    service.name
+                  )}
+                </h3>
+                <BookingLink>
+                  Book now <ArrowRight size={14} />
+                </BookingLink>
+              </div>
+            </article>
+          );
+        })}
+      </section>
+      <section id="brow-lamination-spotlight" className="lamination-spotlight page-width">
+        <div className="heading-row">
+          <SectionIntro
+            eyebrow="FEATURED TREATMENT"
+            title="Brow lamination up close"
+          />
+          <BookingLink className="button solid">Book brow lamination</BookingLink>
+        </div>
+        <div className="lamination-grid">
+          {site.browLaminationSpotlight.map((photo) => (
+            <div key={photo.src}>
               <SalonImage
-                src={service.image}
-                alt={service.name}
+                src={photo.src}
+                alt={photo.alt}
                 fill
-                sizes="(max-width: 700px) 50vw, 25vw"
+                sizes="(max-width: 700px) 45vw, 30vw"
               />
             </div>
-            <div>
-              <h3>{service.name}</h3>
-              <BookingLink>
-                Book now <ArrowRight size={14} />
-              </BookingLink>
-            </div>
-          </article>
-        ))}
+          ))}
+        </div>
       </section>
       <section className="natural-section">
         <div className="natural-inner page-width">
@@ -177,12 +218,12 @@ export default function Home() {
             eyebrow="OUR WORK & SPACE"
             title="Inside the JS experience"
           />
-          <Link className="text-link" href="/#gallery">
+          <Link className="text-link" href="/gallery">
             View full gallery <ArrowRight size={15} />
           </Link>
         </div>
         <div className="gallery-row">
-          {site.gallery.map((image) => (
+          {site.gallery.slice(0, 18).map((image) => (
             <figure key={image.src} className={image.label === "Before & After" ? "gallery-fit-contain" : undefined}>
               <SalonImage
                 src={image.src}

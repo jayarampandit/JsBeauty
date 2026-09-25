@@ -11,7 +11,7 @@ export default function InnerHero({
 }: {
   eyebrow: string;
   title: string;
-  copy: string;
+  copy?: string;
   image?: string;
   mobileImage?: string;
   brightOverlay?: boolean;
@@ -52,7 +52,7 @@ export default function InnerHero({
       <div className="page-width">
         <p className="eyebrow">{eyebrow}</p>
         <h1>{title}</h1>
-        <p>{copy}</p>
+        {copy && <p>{copy}</p>}
       </div>
     </section>
   );

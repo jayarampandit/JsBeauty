@@ -91,18 +91,6 @@
       "description": "Semi-permanent lash tinting for darker, more defined lashes, no mascara needed."
     },
     {
-      "name": "Bridal Hair & Makeup",
-      "slug": "bridal-hair-makeup",
-      "image": "/images/bridal-makeup-jasmi.jpg",
-      "description": "Elegant bridal hair and makeup tailored to your style and celebration."
-    },
-    {
-      "name": "Henna Tattoo",
-      "slug": "henna",
-      "image": "/images/henna-jasmi.jpeg",
-      "description": "Intricate natural henna artistry for celebrations, ceremonies and personal expression."
-    },
-    {
       "name": "Lash Extensions",
       "slug": "lash-extensions",
       "image": "/images/lash-extensions-jasmi.webp",
@@ -113,6 +101,44 @@
       "slug": "waxing",
       "image": "/images/waxingfour.webp",
       "description": "Face and body waxing using professional products and careful technique."
+    },
+    {
+      "name": "Bridal Hair & Makeup",
+      "slug": "bridal-hair-makeup",
+      "image": "/images/bridal-makeup-jasmi.jpg",
+      "description": "Elegant bridal hair and makeup tailored to your style and celebration."
+    },
+    {
+      "name": "Henna Tattoo",
+      "slug": "henna",
+      "image": "/images/henna-jasmi.jpeg",
+      "description": "Intricate natural henna artistry for celebrations, ceremonies and personal expression."
+    }
+  ],
+  "browLaminationSpotlight": [
+    {
+      "src": "/images/brow-lamination-spotlight-tray.jpeg",
+      "alt": "Brow lamination tools and tint laid out for treatment"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-apply.jpeg",
+      "alt": "Applying brow lamination lifting cream"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-tint.jpg",
+      "alt": "Brushing tint through a laminated brow"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-product.jpg",
+      "alt": "Close-up of brow lamination cream on a brush"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-closeup.jpeg",
+      "alt": "Close-up of a smooth, laminated brow"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-result.jpeg",
+      "alt": "Finished brow lamination result, brushed and set"
     }
   ],
   "serviceGroups": [
@@ -323,6 +349,166 @@
       "src": "/images/gallery-waxing-honey.jpg",
       "alt": "Honey wax stick styled with flowers",
       "label": "Waxing"
+    },
+    {
+      "src": "/images/gallery2-lash-1.jpg",
+      "alt": "Full lash extensions close-up on green eyes",
+      "label": "Lash Extensions"
+    },
+    {
+      "src": "/images/gallery2-threading-1.jpg",
+      "alt": "Men's eyebrow threading close-up",
+      "label": "Threading"
+    },
+    {
+      "src": "/images/gallery2-waxing-1.jpg",
+      "alt": "Back waxing treatment",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/gallery2-lash-2.jpg",
+      "alt": "Lash extensions close-up on blue-green eyes",
+      "label": "Lash Extensions"
+    },
+    {
+      "src": "/images/gallery2-lash-3.jpg",
+      "alt": "Brushing through freshly applied lash extensions",
+      "label": "Lash Extensions"
+    },
+    {
+      "src": "/images/gallery2-waxing-2.jpg",
+      "alt": "Leg waxing treatment in progress",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/gallery2-lash-4.jpg",
+      "alt": "Lash extensions close-up with soft lighting",
+      "label": "Lash Extensions"
+    },
+    {
+      "src": "/images/gallery2-waxing-3.jpg",
+      "alt": "Ear waxing treatment",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/gallery2-waxing-4.jpg",
+      "alt": "Applying wax strip to the leg",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/gallery2-threading-2.jpg",
+      "alt": "Close-up eyebrow threading",
+      "label": "Threading"
+    },
+    {
+      "src": "/images/gallery2-lash-5.jpg",
+      "alt": "Symmetrical lash extensions on both eyes",
+      "label": "Lash Extensions"
+    },
+    {
+      "src": "/images/gallery2-threading-3.jpeg",
+      "alt": "Precision eyebrow threading, side profile",
+      "label": "Threading"
+    },
+    {
+      "src": "/images/gallery2-waxing-5.jpeg",
+      "alt": "Face waxing treatment",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/gallery2-threading-4.jpeg",
+      "alt": "Eyebrow threading close-up",
+      "label": "Threading"
+    },
+    {
+      "src": "/images/gallery2-waxing-6.webp",
+      "alt": "Applying wax strip to the leg",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/gallery2-lash-6.webp",
+      "alt": "Lash lift primer application",
+      "label": "Lash Lift"
+    },
+    {
+      "src": "/images/gallery2-lash-7.webp",
+      "alt": "Applying individual lash extensions with tweezers",
+      "label": "Lash Extensions"
+    },
+    {
+      "src": "/images/gallery2-waxing-7.webp",
+      "alt": "Underarm waxing treatment",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/threading.png",
+      "alt": "Precise eyebrow threading",
+      "label": "Threading"
+    },
+    {
+      "src": "/images/lashlift.png",
+      "alt": "Lash lift treatment close-up",
+      "label": "Lash Lift"
+    },
+    {
+      "src": "/images/lash-tint.png",
+      "alt": "Lash tinting close-up",
+      "label": "Lash Tint"
+    },
+    {
+      "src": "/images/lash-extensions-jasmi.webp",
+      "alt": "Lash extensions styling",
+      "label": "Lash Extensions"
+    },
+    {
+      "src": "/images/waxingfour.webp",
+      "alt": "Professional waxing treatment",
+      "label": "Waxing"
+    },
+    {
+      "src": "/images/bridal-makeup-jasmi.jpg",
+      "alt": "Bridal hair and makeup styling",
+      "label": "Bridal"
+    },
+    {
+      "src": "/images/henna-jasmi.jpeg",
+      "alt": "Intricate henna artistry",
+      "label": "Henna"
+    },
+    {
+      "src": "/images/lamination.jpg",
+      "alt": "Brow lamination treatment",
+      "label": "Brow Lamination"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-tray.jpeg",
+      "alt": "Brow lamination tools and tint laid out for treatment",
+      "label": "Brow Lamination"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-apply.jpeg",
+      "alt": "Applying brow lamination lifting cream",
+      "label": "Brow Lamination"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-tint.jpg",
+      "alt": "Brushing tint through a laminated brow",
+      "label": "Brow Lamination"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-product.jpg",
+      "alt": "Close-up of brow lamination cream on a brush",
+      "label": "Brow Lamination"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-closeup.jpeg",
+      "alt": "Close-up of a smooth, laminated brow",
+      "label": "Brow Lamination"
+    },
+    {
+      "src": "/images/brow-lamination-spotlight-result.jpeg",
+      "alt": "Finished brow lamination result, brushed and set",
+      "label": "Brow Lamination"
     }
   ],
   "policies": {
