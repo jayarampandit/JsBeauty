@@ -920,6 +920,13 @@ img {
   background: linear-gradient(110deg, #6e1726, #4f101c);
   color: #fff5f1;
 }
+.footer .logo {
+  background: #fff;
+  padding: 10px 18px;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+  margin-bottom: 18px;
+}
 .footer-grid {
   display: grid;
   grid-template-columns: 1.5fr 0.8fr 0.9fr 1.25fr;
